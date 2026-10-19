@@ -1,0 +1,18 @@
+# Irish Geospatial Mapping — Python 3.10+
+# Install:  pip install -r requirements.txt
+
+# --- geospatial core (notebook + app) ---------------------------------------
+geopandas>=1.0          # vector data + CRS handling
+pyproj>=3.6             # transformations: EPSG:2157 / 29903 / 4326
+shapely>=2.0            # geometry engine under geopandas
+pandas>=2.0             # tabular core
+folium>=0.16            # interactive Leaflet maps
+matplotlib>=3.8         # static EDA charts (notebook)
+requests>=2.31          # open-data downloads
+
+# --- streamlit app ------------------------------------------------------------
+streamlit>=1.46         # st.dataframe(width="stretch"), horizontal bar charts
+streamlit-folium>=0.23  # folium bridge for Streamlit
+
+# --- optional: run the notebook locally ----------------------------------------
+# jupyterlab
