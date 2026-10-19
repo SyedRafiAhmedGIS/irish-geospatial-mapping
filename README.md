@@ -36,7 +36,7 @@ Ireland: a documented **Jupyter notebook** for the analysis and an interactive
 ## Quickstart
 
 ```bash
-git clone https://github.com/<your-username>/irish-geospatial-mapping.git
+git clone https://github.com/SyedRafiAhmedGIS/irish-geospatial-mapping.git
 cd irish-geospatial-mapping
 pip install -r requirements.txt
 
